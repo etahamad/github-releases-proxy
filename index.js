@@ -1,5 +1,5 @@
 // URL to fetch upstream assets from
-const ORIGIN_URL = 'https://github.com/PotatoDevices'
+const ORIGIN_URL = 'https://github.com/etahamad'
 
 // Whether to cache assets from GitHub
 // Disable to conserve Workers cache quota
@@ -10,7 +10,7 @@ const CACHE_TTL = 5259488 // 2 months
 
 // Regex patterns for allowed CORS origins
 const CORS_ALLOWED_ORIGINS = [
-  /^potatodevices\.etahamad\.dev$/,
+  /^etahamad\.etahamad\.dev$/,
   /^android-webinstall-etahamad\.vercel\.app$/,
   /^android-webinstall-git-[a-z0-9\-_/]-etahamad\.vercel\.app$/,
   /^android-webinstall-[a-z0-9]+-etahamad\.vercel\.app$/,
